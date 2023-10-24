@@ -10,7 +10,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+const postTitle = "New Post";
+const postContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam blanditiis optio animi natus et expedita consequuntur doloremque beatae adipisci numquam pariatur, illum, ratione delectus fugiat explicabo fugit veritatis ex?";
+let likes = 0;
+const author = "John Doe";
+const isReported = false;
 // --^-- write your code here --^--
 
 /*
@@ -18,5 +22,11 @@ console.clear();
 */
 
 // --v-- write your code here --v--
-
+console.log(postTitle);
+console.log(postContent);
+console.log(likes);
+console.log(author);
+console.log(isReported);
+likes += 1;
+console.log(likes);
 // --^-- write your code here --^--
